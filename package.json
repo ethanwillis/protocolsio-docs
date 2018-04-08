@@ -1,0 +1,29 @@
+{
+  "name": "protocolsio-docs",
+  "version": "0.0.1",
+  "description": "Tool for autogenerating documentation to markdown, slate, etc. from protocolsio-schemas NPM package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanwillis/protocolsio-docs.git"
+  },
+  "keywords": [
+    "protocols.io",
+    "protocolsio",
+    "openscience"
+  ],
+  "author": "Ethan Willis",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ethanwillis/protocolsio-docs/issues"
+  },
+  "homepage": "https://github.com/ethanwillis/protocolsio-docs#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "protocolsio-schemas": "0.0.6"
+  }
+}
