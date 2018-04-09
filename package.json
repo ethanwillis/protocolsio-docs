@@ -4,7 +4,8 @@
   "description": "Tool for autogenerating documentation to markdown, slate, etc. from protocolsio-schemas NPM package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/ --out-dir ./build"
   },
   "repository": {
     "type": "git",
